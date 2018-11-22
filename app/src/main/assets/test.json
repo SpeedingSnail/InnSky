@@ -1,0 +1,227 @@
+{
+  "ret": "0",
+  "data": {
+    "version": 1.8,
+    "p_181111_3000": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "CamScanner_Points_18_11_3000"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_Points_18_11_3000"
+        }
+      ],
+      "count": 3000,
+      "price_info": {
+        "cny": {
+          "product_price": 0.01,
+          "product_name": "充值3000点券"
+        },
+        "usd": {
+          "product_price": 0.01,
+          "product_name": "充值3000点券"
+        }
+      }
+    },
+    "point": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "CamScanner_Points_2000"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_Points_2000"
+        },
+        {
+          "payway": 4,
+          "product_id": "com.intsig.camscanner.3000cpoints"
+        }
+      ],
+      "count": 2000,
+      "price_info": {
+        "cny": {
+          "product_price": 0.01,
+          "product_name": "充值2000点券"
+        },
+        "usd": {
+          "product_price": 2.99,
+          "product_name": "充值2000点券"
+        }
+      }
+    },
+    "month": {
+      "productId": [
+        {
+          "payway": 4,
+          "product_id": "com.intsig.camscanner.monthly"
+        },
+        {
+          "payway": 1,
+          "product_id": "CamScanner_VIP_1M"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_VIP_1M"
+        }
+      ],
+      "count": 1,
+      "price_info": {
+        "cny": {
+          "product_price": 0.01,
+          "product_name": "扫描全能王1月高级帐户"
+        },
+        "usd": {
+          "product_price": 4.99,
+          "product_name": "扫描全能王1月高级帐户"
+        }
+      }
+    },
+    "p_181225_3000": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "com.intsig.camscanner.3000cpoints_xmas"
+        },
+        {
+          "payway": 2,
+          "product_id": "com.intsig.camscanner.3000cpoints_xmas"
+        }
+      ],
+      "count": 3000,
+      "price_info": {
+        "cny": {
+          "product_price": 0.01,
+          "product_name": "充值3000点券"
+        }
+      }
+    },
+    "ms": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "CamScanner_VIP_MS"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_VIP_MS"
+        },
+        {
+          "payway": 10,
+          "product_id": "CamScanner_VIP_MS"
+        }
+      ],
+      "count": 0,
+      "price_info": {
+        "cny": {
+          "product_first_price": 0.01,
+          "subscript": "次月起25元，原价30元\/月",
+          "product_price": 0.02,
+          "product_name": "首月18元"
+        },
+        "usd": {
+          "product_first_price": 0.01,
+          "subscript": "次月起25元，原价30元\/月",
+          "product_price": 0.02,
+          "product_name": "首月18元"
+        }
+      }
+    },
+    "p_181225_600": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "com.intsig.camscanner.600cpoints_xmas"
+        },
+        {
+          "payway": 2,
+          "product_id": "com.intsig.camscanner.600cpoints_xmas"
+        }
+      ],
+      "count": 600,
+      "price_info": {
+        "cny": {
+          "product_price": 0.01,
+          "product_name": "充值600点券"
+        }
+      }
+    },
+    "year": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "CamScanner_VIP_1Y"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_VIP_1Y"
+        },
+        {
+          "payway": 4,
+          "product_id": "com.intsig.camscanner.yearly"
+        }
+      ],
+      "count": 12,
+      "price_info": {
+        "cny": {
+          "product_price": 0.1,
+          "product_name": "扫描全能王12个月高级帐户"
+        },
+        "usd": {
+          "product_price": 0.1,
+          "product_name": "扫描全能王12个月高级帐户"
+        }
+      }
+    },
+    "ys": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "CamScanner_VIP_YS"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_VIP_YS"
+        },
+        {
+          "payway": 10,
+          "product_id": "CamScanner_VIP_YS"
+        }
+      ],
+      "count": 0,
+      "price_info": {
+        "cny": {
+          "product_first_price": 0.01,
+          "subscript": "首年仅180元，立省120元",
+          "product_price": 0.02,
+          "product_name": "首年15元\/月"
+        }
+      }
+    },
+    "p_181111_600": {
+      "productId": [
+        {
+          "payway": 1,
+          "product_id": "CamScanner_Points_18_11_600"
+        },
+        {
+          "payway": 2,
+          "product_id": "CamScanner_Points_18_11_600"
+        }
+      ],
+      "count": 600,
+      "price_info": {
+        "cny": {
+          "product_price": 0.01,
+          "product_name": "充值600点券"
+        },
+        "usd": {
+          "product_price": 0.01,
+          "product_name": "充值600点券"
+        }
+      }
+    }
+  }
+}
