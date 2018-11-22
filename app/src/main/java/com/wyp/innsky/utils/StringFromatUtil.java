@@ -22,11 +22,12 @@ public class StringFromatUtil {
 
     public static String formatJson(Context context) {
         String str = "";
+        StringBuffer stringBuffer = new StringBuffer();
         AssetManager assetManager = context.getAssets();
         try {
             InputStream is = assetManager.open("test.json");
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
-            StringBuffer stringBuffer = new StringBuffer();
+
 
             while((str = br.readLine())!=null){
                 stringBuffer.append(str);
@@ -35,9 +36,10 @@ public class StringFromatUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        Log.d("json",stringBuffer.toString());
         StringBuilder sb = new StringBuilder();
         try {
-            JSONObject rootJson = new JSONObject(str);
+            JSONObject rootJson = new JSONObject(stringBuffer.toString());
             formatJSONObject(sb, rootJson);
         } catch (JSONException e) {
             e.printStackTrace();
@@ -46,11 +48,11 @@ public class StringFromatUtil {
     }
 
     public static StringBuilder formatJSONObject(StringBuilder sb, JSONObject rootJson) {
-        sb.append("{\n\t");
+        sb.append("{\n");
         Iterator<String> keys = rootJson.keys();
         while (keys.hasNext()) {
             String key = keys.next();
-            sb.append("\"").append(key).append("\":");
+            sb.append("\t\"").append(key).append("\":");
             Object value = rootJson.opt(key);
             if (value instanceof String) {
                 sb.append("\"").append(rootJson.optString(key)).append("\",\n");
