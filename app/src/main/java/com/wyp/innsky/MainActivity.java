@@ -15,7 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.wyp.innsky.utils.StringFromatUtil;
+import com.wyp.innsky.utils.jsonFormatUtil;
 import com.wyp.innsky.view.ViewMainActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG,StringFromatUtil.formatJson(this));
+        jsonFormatUtil.test(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

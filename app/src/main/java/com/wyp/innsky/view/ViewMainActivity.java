@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import com.wyp.innsky.BaseActivity;
 import com.wyp.innsky.R;
-import com.wyp.innsky.utils.StringFromatUtil;
+import com.wyp.innsky.utils.jsonFormatUtil;
 
 /**
  * Created by yingping_wang on 2018/11/22.
@@ -18,6 +18,5 @@ public class ViewMainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_main);
         TextView tvJson = findViewById(R.id.tvJson);
-        tvJson.setText(StringFromatUtil.formatJson(this));
     }
 }
