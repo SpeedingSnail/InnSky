@@ -15,7 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.wyp.innsky.utils.jsonFormatUtil;
+import com.wangyp.network.NetWorkMainActivity;
 import com.wyp.innsky.view.ViewMainActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        jsonFormatUtil.test(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -90,7 +89,8 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_view) {
             startActivity(new Intent(this,ViewMainActivity.class));
                 // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.net_work) {
+            startActivity(new Intent(this,NetWorkMainActivity.class));
 
         } else if (id == R.id.nav_slideshow) {
 

@@ -1,4 +1,4 @@
-package com.wyp.innsky.utils;
+package com.wangyp.base.util;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -16,27 +16,13 @@ import java.io.InputStreamReader;
 import java.util.Iterator;
 
 /**
- * Created by yingping_wang on 2018/11/22.
+ * author:wangyp
+ * Date:2018/11/25
+ * Description:
  */
-public class jsonFormatUtil {
+public class JsonFormatUtil {
 
     public static final String TAG = "jsonFormatUtil";
-
-    public static void test(Context context){
-        String str = "";
-        StringBuffer stringBuffer = new StringBuffer();
-        AssetManager assetManager = context.getAssets();
-        try {
-            InputStream is = assetManager.open("test.json");
-            BufferedReader br = new BufferedReader(new InputStreamReader(is));
-            while((str = br.readLine())!=null){
-                stringBuffer.append(str);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        jsonFormatPrint(TAG,stringBuffer.toString());
-    }
 
     public static void jsonFormatPrint(String tag,String json){
         if (TextUtils.isEmpty(json)){
