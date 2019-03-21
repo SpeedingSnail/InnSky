@@ -17,4 +17,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="CSDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@mipmap/menu_dropdown_panel_holo_light3</item>
+    </style>
+
+
 </resources>

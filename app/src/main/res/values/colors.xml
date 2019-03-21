@@ -3,4 +3,40 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- color 标准化 -->
+    <color name="cs_white">#FFFFFF</color>
+    <color name="cs_dark">#F5F5F5</color>
+    <color name="cs_black_900">#223346</color>
+    <color name="cs_black_800">#34485E</color>
+    <color name="cs_black_700">#435B74</color>
+    <color name="cs_black_600">#536F8B</color>
+    <color name="cs_black_500">#617D9D</color>
+    <color name="cs_black_400">#7890AE</color>
+    <color name="cs_black_300">#8EA5BF</color>
+    <color name="cs_black_200">#ACBFD6</color>
+    <color name="cs_black_100">#C8D9EC</color>
+    <color name="cs_black_50">#E6EFFF</color>
+    <color name="cs_green">#19BC9C</color>
+    <color name="cs_green_900">#005230</color>
+    <color name="cs_green_800">#006F4B</color>
+    <color name="cs_green_700">#007F59</color>
+    <color name="cs_green_600">#008F68</color>
+    <color name="cs_green_500">#009C75</color>
+    <color name="cs_green_400">#00AD87</color>
+    <color name="cs_green_300">#19BC9C</color>
+    <color name="cs_green_200">#6FD0B8</color>
+    <color name="cs_green_100">#AAE2D4</color>
+    <color name="cs_green_50">#DCF3EE</color>
+    <color name="cs_red">#FF6161</color>
+    <color name="cs_orange">#FF9312</color>
+    <color name="cs_yellow">#F5B910</color>
+    <color name="cs_blue">#1DA9FF</color>
+    <color name="cs_black">#333333</color>
+    <color name="cs_grey_1">#666666</color>
+    <color name="cs_grey_2">#999999</color>
+    <color name="cs_grey_3">#cccccc</color>
+    <color name="cs_divider">#E0E0E0</color>
+    <color name="cs_bg">#EFEFEF</color>
+    <color name="cs_dark_2">#F7F7F7</color>
 </resources>

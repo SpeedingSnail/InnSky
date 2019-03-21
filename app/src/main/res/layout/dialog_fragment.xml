@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cs_white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:textColor="@color/cs_black_900"
+            android:textSize="@dimen/text_size_20sp"
+            tools:text="this is title" />
+
+        <TextView
+            android:id="@+id/tv_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:alpha="0.6"
+            android:textColor="@color/cs_black_900"
+            android:textSize="@dimen/text_size_16sp"
+            tools:text="Greyhound divisively hello coldly wonderfully marginally far upon excluding. Greyhound divisively hello coldly" />
+
+        <EditText
+            android:id="@+id/edt_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_24dp"
+            android:layout_marginTop="@dimen/margin_24dp"
+            android:layout_marginRight="@dimen/margin_24dp" />
+
+
+        <CheckBox
+            android:id="@+id/cb_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_24dp"
+            android:layout_marginRight="@dimen/margin_24dp"
+            android:alpha="0.6"
+            android:textColor="@color/cs_black_900"
+            android:textSize="@dimen/text_size_14sp"
+            tools:text="Selected / Unselected" />
+
+        <LinearLayout
+            android:id="@+id/rl_horizontal_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_8dp"
+            android:layout_marginTop="@dimen/margin_24dp"
+            android:layout_marginRight="@dimen/margin_8dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8dp"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_marginRight="@dimen/margin_8dp"
+                android:layout_marginBottom="@dimen/margin_8dp"
+                android:paddingLeft="@dimen/padding_16dp"
+                android:paddingTop="@dimen/margin_10dp"
+                android:paddingRight="@dimen/padding_16dp"
+                android:paddingBottom="@dimen/margin_10dp"
+                tools:text="NEGATIVE BUTTON" />
+
+            <Button
+                android:id="@+id/btn_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8dp"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_marginRight="@dimen/margin_8dp"
+                android:layout_marginBottom="@dimen/margin_8dp"
+                android:paddingLeft="@dimen/padding_16dp"
+                android:paddingTop="@dimen/margin_10dp"
+                android:paddingRight="@dimen/padding_16dp"
+                android:paddingBottom="@dimen/margin_10dp"
+                tools:text="POSITIVE BUTTON" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
