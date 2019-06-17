@@ -1,10 +1,10 @@
 package com.wyp.innsky.view;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 import com.wangyp.base.BaseActivity;
 import com.wyp.innsky.R;
@@ -25,12 +25,7 @@ public class ViewMainActivity extends BaseActivity {
         InnDialogFragment.create(this,getSupportFragmentManager())
                 .setTitle("标题")
                 .setMessage("这里是内容的展示地方")
-                .setPositive("确认", new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Toast.makeText(getBaseContext(),"确认",Toast.LENGTH_SHORT).show();
-                    }
-                })
+                .setPositive("确认", v -> Toast.makeText(getBaseContext(),"确认",Toast.LENGTH_SHORT).show())
                 .setNegative("取消", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
